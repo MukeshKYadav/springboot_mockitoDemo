@@ -25,7 +25,7 @@ public class SomeBusinessImpl {
 		int[] data = dataService.retrieveAllData();
 		int least = data[0];
 
-		for(int i=1;i<data.length-1;i++) {
+		for(int i=1;i<=data.length-1;i++) {
 			if(data[i]<least) {
 				least = data[i];
 			}
